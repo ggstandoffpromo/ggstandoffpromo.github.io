@@ -194,6 +194,9 @@ nav {
     .pol > a {
         font-size: 25px;
     }
+    .cardname > h1 {
+        padding-top:1em;
+    }
 }
 @media (max-width: 300px) {
     .all {
