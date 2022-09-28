@@ -195,8 +195,7 @@ nav {
         font-size: 25px;
     }
     .cardname > h1 {
-        padding-top:1em;
-        padding-left:5px;
+        padding-top:1.5em;
     }
 }
 @media (max-width: 300px) {
