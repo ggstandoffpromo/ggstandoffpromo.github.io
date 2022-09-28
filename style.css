@@ -1,0 +1,208 @@
+@media (max-width: 1920px) {
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    height: 15vh;
+    width: 100vw;
+    background-color: purple;
+    display: flex;
+    position: fixed;
+}
+.telegram {
+    width: 25vw;
+    height: 15vh;
+    background: -webkit-linear-gradient(45deg, #588bb0,#00d4b6,#fcf837);
+    background: linear-gradient(45deg, #588bb0,#00d4b6,#fcf837);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    width: 55vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.telegram > a, .vkgroup > a {
+    font-size: 50px;
+    font-family: fantasy, Luminari;
+    color: blue;
+}
+.vkgroup {
+    width: 20vw;
+    height: 15vh;
+    background: -webkit-linear-gradient(90deg, #cce6ff,#7abfff,#52abff);background: linear-gradient(90deg, #cce6ff,#7abfff,#52abff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info > h1 {
+    font-size: 35px;
+    color: wheat;
+}
+.preview > img {
+    height: 85vh;
+    width: 100%;
+    margin-top: 15vh;
+}
+.promocodes {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardwpromos {
+    height: 70vh;
+    width: 25vw;
+    background-color: azure;
+    border-radius: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardname > h1 {
+    padding-top: 1.3em;
+    font-size: 1.6em;
+}
+.promo > h1 {
+    font-size: 50px;
+}
+.polkonf {
+    height: 20vh;
+    width: 100vw;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buy {
+    height: 15vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00d4b6;
+    border-radius: 20%;
+}
+.buy > a {
+    font-family: fantasy, sans-serif;
+    font-size: 30px;
+}
+.pol > a {
+    color: red;
+    font-size: 30px;
+}
+.pol > a:hover {
+    color: purple;
+    cursor:grab;
+}
+.buy > a:hover {
+    color: red;
+    cursor: cell;
+}
+.error {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+}
+@media (max-width: 1700px) {
+    .cardname > h1 {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 1500px) {
+    .cardname > h1 {
+        font-size: 1em;
+        padding-top: 4em;
+    }
+    nav > .vkgroup > a {
+        font-size: 40px;
+    }
+    nav > .telegram > a {
+        font-size: 32px;
+    }
+}
+@media (max-width: 1000px) {
+    nav > .vkgroup > a {
+        font-size: 28px;
+    }
+    nav > .telegram > a {
+        font-size: 22px;
+    }
+    .cardwpromos {
+        height: 45vh;
+        width: 33vw;
+    }
+    .promo > h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 700px) {
+    .preview > img {
+        height:50vh;
+    }
+    .promocodes {
+        flex-direction: column;
+        height: 150vh;
+    }
+    .cardwpromos {
+        width: 50vw;
+        height: 45vh;
+    }
+    .cardname > h1 {
+        font-size: 17px;
+    }
+    .promo > h1 {
+        font-size: 33px;
+    }
+    .info {
+        width: 46vw;
+    }
+    .telegram, .vkgroup {
+        width: 27vw;
+    }
+    nav > .telegram > a {
+        font-size: 15px;
+    }
+    .info > h1 {
+        font-size: 25px;
+    }
+    .buy > a {
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .info > h1 {
+        font-size: 15px;
+    }
+    .promo > h1 {
+        font-size: 28px;
+    }
+    .pol > a {
+        font-size: 25px;
+    }
+}
+@media (max-width: 300px) {
+    .all {
+        display: none;
+    }
+    .error {
+        display: block;
+    }
+    .error > h1 {
+        color: white;
+    }
+}
