@@ -196,7 +196,7 @@ nav {
     }
     .cardname > h1 {
         padding-top:1em;
-        padding-left:10px;
+        padding-left:5px;
     }
 }
 @media (max-width: 300px) {
