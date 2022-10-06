@@ -198,6 +198,7 @@ nav {
     .cardname > h1 {
         padding-top:1.5em;
         font-size: 20px;
+        color: deepskyblue
     }
 }
 @media (max-width: 300px) {
